@@ -1,0 +1,17 @@
+{
+  "name": "Mohan R - Full Stack Developer Portfolio",
+  "short_name": "Mohan R",
+  "description": "Portfolio of Mohan R, Full Stack Developer and CSE Student",
+  "start_url": "./",
+  "display": "standalone",
+  "background_color": "#0b0f19",
+  "theme_color": "#6366f1",
+  "icons": [
+    {
+      "src": "assets/favicon.svg",
+      "sizes": "64x64 128x128 256x256 512x512",
+      "type": "image/svg+xml",
+      "purpose": "any maskable"
+    }
+  ]
+}
