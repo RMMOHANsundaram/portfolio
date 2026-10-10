@@ -9,12 +9,12 @@
     "client": "npm run dev --prefix client",
     "dev": "concurrently \"npm run server\" \"npm run client\"",
     "build": "npm run build --prefix client",
-    "install:all": "npm install && npm install --prefix server && npm install --prefix client"
+    "install:all": "npm install --include=dev && npm install --prefix server && npm install --prefix client --include=dev"
   },
   "keywords": ["mern", "react", "express", "nodejs", "mongodb", "portfolio", "fullstack"],
   "author": "Mohan R",
   "license": "MIT",
-  "devDependencies": {
+  "dependencies": {
     "concurrently": "^8.2.2"
   }
 }
